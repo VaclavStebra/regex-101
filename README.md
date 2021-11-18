@@ -1,4 +1,4 @@
-#Regex Intro
+# Regex Intro
 
 > Some people, when confronted with a problem, think "I know, I'll use regular expressions." Now they have two problems.
 
@@ -17,23 +17,23 @@
   * Deterministické konečné automaty
 
 
-###Regulární výraz
+### Regulární výraz
 
 ab*c
 
-###Regulární gramatika
+### Regulární gramatika
 
 * S -> aB
 * B -> bB
 * B -> c
 
-###Deterministický konečný automat
+### Deterministický konečný automat
 
 ![](fsa.png)
 
 ---
 
-###Koncepty
+### Koncepty
 
 https://regex101.com/
 
@@ -64,7 +64,7 @@ https://regex101.com/
     * behind (?<=), (?<!)
 
 
-###Příklady
+### Příklady
 
 * emailova adresa
 * IP adresa

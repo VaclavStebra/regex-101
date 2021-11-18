@@ -39,15 +39,29 @@ https://regex101.com/
 
 * přesná shoda
 * flagy
-* bílé znaky
-* třídy znaků
+    * g, i, m
+* třídy znaků, rozsahy
+    * []
+    * negace [^]
 * tečka
-* kotvy
+* bílé znaky, speciální znaky, hranice
+    * \n, \t  
+    * \w, \d, \s
+    * \b
+    * ^, $
 * alternace
+    * |
 * opakování
+    * +, *, ?
+    * {min, max}
 * lazy opakování
+    * ?
 * skupiny
+    * ()
+    * (?<name>)
 * loookaround
+    * ahead (?=), (?!)
+    * behind (?<=), (?<!)
 
 
 ###Příklady
@@ -56,10 +70,10 @@ https://regex101.com/
 * IP adresa
   `(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.(25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)`
 * promenne v topicu / url v mocqaccinu
-* parsovani strukturovaneho textu
 
 
 ### Zdroje
 
 * https://www.regular-expressions.info/quickstart.html
 * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+* https://docs.oracle.com/javase/7/docs/api/java/util/regex/Pattern.html
